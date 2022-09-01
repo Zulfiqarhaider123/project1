@@ -1,0 +1,192 @@
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(184, 140, 140);
+    overflow: hidden;
+    list-style: none;
+    position: sticky;
+    top: 0;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    color: white;
+    padding: 16px;
+    display: block;
+    text-decoration: none;
+
+}
+
+li a:hover {
+    background-color: brown;
+    color: white;
+}
+
+
+#home {
+    background-image: url(img/computer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 64px 0;
+    height: 400px;
+
+}
+
+
+
+#home .info {
+
+    font-size: 33px;
+    font-style: italic;
+
+    margin: 24px;
+    color: brown;
+    text-align: center;
+    margin-top: 200px;
+
+}
+
+#home .info p,
+h2 {
+    color: brown;
+}
+
+#about {
+    padding: 54px;
+    height: auto;
+    background-color: brown;
+
+
+}
+
+#about .ab-info {
+    color: white;
+    font-size: large;
+    font-style: italic;
+    font-family: algerian;
+    margin: 24px;
+    text-align: center;
+
+}
+
+#about .ab-info img {
+    border-radius: 20px;
+    width: 600px;
+    height: 400px;
+}
+
+
+#service {
+    padding: 34px 0px;
+
+    background-color: rgb(151, 206, 151);
+}
+
+#service .sir-info,
+h2,
+p {
+
+    color: white;
+    font-family: verdana;
+    margin-top: 0px;
+    text-align: center;
+    display: ;
+
+}
+
+.ser-info img {
+    height: 300px;
+    width: 40%;
+    margin: auto;
+    float: left;
+    margin-left: 12px;
+    border-radius: 20px;
+}
+
+.ser-info {
+    text-align: ;
+}
+
+.clear::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.para p {
+    margin: 8px;
+    padding: 8px;
+}
+
+
+
+
+
+
+
+#contact {
+    background-color: antiquewhite;
+    padding: 64px 16px;
+}
+
+#contact .cont-box {
+    width: 60%;
+    background-image: url(img/hands.jpg);
+    background-size: cover;
+    padding: 34px;
+    margin: auto;
+    text-align: center;
+
+}
+
+form input {
+    width: 100%;
+    margin: 8px 0;
+    padding: 8px;
+    border: none;
+
+}
+
+#contact .cont-box h3 {
+    text-align: center;
+    color: brown;
+}
+
+.btn {
+    width: 20%;
+    background-color: brown;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.ser-box {
+    height: px;
+    background-image: url(img/hands.jpg);
+    background-size: cover;
+    text-align: center;
+    margin-top:
+}
+
+.ab-info h2,
+p {
+    color: white;
+}
+
+
+input[ send] {
+    background-color: bisque;
+}
